@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title Goes Here</title>
+    <title>Dom Play</title>
     <meta charset="utf-8" />
     <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/forms.css" />
+    <style>
+      /* .hamlet {
+        background-color: yellow;
+      } */
+    </style>
   </head>
   <body>
     <header>
-      <h1>Title Goes Here</h1>
+      <h1>Dom Play</h1>
       <nav class="topnav" id="myTopnav">
         <a href="index.html" class="active">Home</a>
         <a href="#" target="_blank">Name of project goes here</a>
@@ -23,7 +28,11 @@
 
     <main class="wrapper">
       <div id="play">
-        <p><span>Hamlet: To be or not to be?</span></p>
+        <p>
+          <span onclick="this.style.backgroundColor='yellow'"
+            >Hamlet: To be or not to be?</span
+          >
+        </p>
         <p><span>Skull: Are you talking to me?</span></p>
         <p><span>Hamlet: What did you say?</span></p>
       </div>
